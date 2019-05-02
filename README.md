@@ -1,5 +1,9 @@
 ## python重点
-- list tuple dict set str 之间的相互转化
+#### Anaconda3 命令
+    - 常用的命令
+        1. 更新库：`conda upgrade --all`
+        2. 
+#### list tuple dict set str 之间的相互转化
     - 一般来说都是构造函数的使用
     - 以下是一些特殊的用法汇集
         1. list tuple dict set 拼接为字符串：`''.join()`
