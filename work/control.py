@@ -143,9 +143,13 @@ def cal_bmi(weight, height):
 
 if __name__ == '__main__':
     perfect_num()
+
     # print(boll_height(10))
+
     # diamond()
+
     # completely()
+
     # year = int(input('请输入年'))
     # mouth = int(input('请输入月'))
     # day = int(input('请输入日'))
