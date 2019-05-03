@@ -13,7 +13,13 @@
     5. 退出虚拟环境： `deactivate name`
     6. 删除虚拟环境： `conda remove -n name --all`
     7. 导入虚拟环境： `conda create -f path/name.yaml`
-    
+#### str 的几个重要方法
+- 反转字符串 `str[::-1]`
+- 首字母大写 `capitalize()`
+- 使用指定字符居中填充 `center(size, char)`
+- 前面使用0填充，填充到指定的长度 `zfill(size)`
+- 指定字符串里tab的长度 `expandtabs()`
+- 字符串来连接指定序列 `join()`
 #### list、tuple、dict、set、str之间的相互转化
 - 一般来说都是构造函数的使用
 - 以下是一些特殊的用法汇集
@@ -23,4 +29,4 @@
         2. `zip()`来将两个list或tuple或set构造为字典
     3. str 转 list tuple dict set
         1. 主要使用`eval()`只要把字符串改为对应的格式就可以动态的转化为对应的结构
-        2. 转dict还有另外一种方式`json.loads()`,需要注意的是必须严格的使用json格式：键和值都用双引号`""`包裹 
+        2. 转dict还有另外一种方式`json.loads()`,需要注意的是必须严格的使用json格式：键和值都用双引号`""`包裹
