@@ -1,4 +1,9 @@
 ## python重点
+#### python 和其他语言不一样的地方
+- 没有equals方法，有 is 关键字
+- 没有三目运算符 有 `condition_is_true if condition else condition_is_false`
+- print函数会换行，要让其不换行，要使用print函数的 `end=''` 该参数表示打印的末尾加什么,可以是任何
+- 循环后加else 当循环没有被break的时候执行else的内容
 #### Anaconda3命令
 - 常用的命令
     1. 更新库：`conda upgrade --all`
@@ -30,3 +35,5 @@
     3. str 转 list tuple dict set
         1. 主要使用`eval()`只要把字符串改为对应的格式就可以动态的转化为对应的结构
         2. 转dict还有另外一种方式`json.loads()`,需要注意的是必须严格的使用json格式：键和值都用双引号`""`包裹
+#### Python 文件读写
+
