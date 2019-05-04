@@ -4,6 +4,7 @@
 - 没有三目运算符 有 `condition_is_true if condition else condition_is_false`
 - print函数会换行，要让其不换行，要使用print函数的 `end=''` 该参数表示打印的末尾加什么,可以是任何
 - 循环后加else 当循环没有被break的时候执行else的内容
+- 一种for循环的特殊写法`[i for i in range(10)]`，这样直接返回的是一个列表
 #### Anaconda3命令
 - 常用的命令
     1. 更新库：`conda upgrade --all`
@@ -36,4 +37,8 @@
         1. 主要使用`eval()`只要把字符串改为对应的格式就可以动态的转化为对应的结构
         2. 转dict还有另外一种方式`json.loads()`,需要注意的是必须严格的使用json格式：键和值都用双引号`""`包裹
 #### Python 文件读写
+- `decode()`方法表示解码使用的字符集，多用在解码网络爬取的数据
+- 给定路径的指定文件列表`[x for x in os.listdir('.') if os.path.isfile(os.path.join('.', x)) and os.path.splitext(x)[1] == '
+.py']` 本实例是当前路径下所有py的文件列表
+- 给定路径的指定文件夹列表`[x for x in os.listdir('../') if os.path.isdir(os.path.join('../', x))]` 本实例是上级目录的所有文件夹列表
 
