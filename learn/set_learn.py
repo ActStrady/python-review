@@ -74,4 +74,3 @@ nums1 = {1, 5, 6, 8, 9, 57}
 nums2 = {2, 5, 8, 58, 558}
 nums3 = nums1.symmetric_difference(nums2)
 print(nums3)
-
