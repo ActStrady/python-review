@@ -51,4 +51,3 @@ print(names[0:1])
 
 # 相当于复制
 print(names[::])
-
