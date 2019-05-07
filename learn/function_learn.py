@@ -107,6 +107,8 @@ print(sorted(nums))
 # 下面的lambda表达式表示一个函数：输入一个值然后取其绝对值，根据绝对值来排序
 print(sorted(nums, key=lambda x: abs(x)))
 
+# TODO 内置函数的练习 https://docs.python.org/zh-cn/3/library/functions.html
+
 if __name__ == '__main__':
     prt(add(1, 2))
     prt(get(1, 2))

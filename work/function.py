@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-# 1. 统计大小写字母个数
+# 统计大小写字母个数
 def statistics(string):
     upper_count = 0
     lower_count = 0
@@ -58,10 +58,10 @@ def triangles(n):
     for i in range(0, n):
         # 画空格
         for x in range(1, n - i):
-            print(end=" ")
+            print(end="\t")
         # 杨辉三角形数
         for j in range(0, i + 1):
-            print(triangles_num(i, j), end=" ")
+            print(triangles_num(i, j), end="\t\t")
         print()
 
 
@@ -103,4 +103,4 @@ if __name__ == '__main__':
     print(repeat_rid_order([2, 8, 5, 9, 8, 9, 2]))
     print(fibonacci(10))
     hanoi(2, 'A', 'B', 'C')
-    triangles(9)
+    triangles(6)
