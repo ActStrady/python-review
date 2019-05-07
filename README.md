@@ -1,4 +1,4 @@
-## python总结
+## python学习与深入理解
 #### python 和其他语言不一样的地方
 - 没有equals方法，有 is 关键字
 - 没有三目运算符 有 `condition_is_true if condition else condition_is_false`
